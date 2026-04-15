@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 function DeveloperSetup() {
   return (
@@ -9,14 +9,16 @@ function DeveloperSetup() {
         <h2>VS Code Setup</h2>
         <p>
           I use Visual Studio Code with extensions such as Prettier, ESLint,
-          Live Server, and Auto Rename Tag to improve coding speed and code quality.
+          Live Server, and Auto Rename Tag to improve coding speed and code
+          quality.
         </p>
       </div>
 
       <div className="card">
         <h2>Terminal Setup</h2>
         <p>
-          I use PowerShell and Git Bash to run npm commands, Git commands, and Docker commands.
+          I use PowerShell and Git Bash to run npm commands, Git commands, and
+          Docker commands.
         </p>
       </div>
 
@@ -28,7 +30,7 @@ function DeveloperSetup() {
       <div className="card">
         <h2>Supporting Resource</h2>
         <p>
-          VS Code Documentation:{" "}
+          VS Code Documentation:{' '}
           <a
             href="https://code.visualstudio.com/docs"
             target="_blank"

@@ -1,12 +1,12 @@
-import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
-import Home from "./pages/Home";
-import Work from "./pages/Work";
-import Skills from "./pages/Skills";
-import Resources from "./pages/Resources";
-import DeveloperSetup from "./pages/DeveloperSetup";
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
+import Home from './pages/Home';
+import Work from './pages/Work';
+import Skills from './pages/Skills';
+import Resources from './pages/Resources';
+import DeveloperSetup from './pages/DeveloperSetup';
 
 function App() {
   return (

@@ -1,30 +1,30 @@
-import React from "react";
+import React from 'react';
 
 function Home() {
   const skills = [
-    "HTML",
-    "CSS",
-    "JavaScript",
-    "React",
-    "Ruby on Rails",
-    "Java",
-    "GitHub",
-    "Docker"
+    'HTML',
+    'CSS',
+    'JavaScript',
+    'React',
+    'Ruby on Rails',
+    'Java',
+    'GitHub',
+    'Docker',
   ];
 
   const strengths = [
     {
-      title: "Front-End Development",
-      text: "Building clean, responsive, and user-friendly interfaces using HTML, CSS, JavaScript, and React."
+      title: 'Front-End Development',
+      text: 'Building clean, responsive, and user-friendly interfaces using HTML, CSS, JavaScript, and React.',
     },
     {
-      title: "Back-End Development",
-      text: "Creating database-driven applications and full-stack solutions using Ruby on Rails and Java."
+      title: 'Back-End Development',
+      text: 'Creating database-driven applications and full-stack solutions using Ruby on Rails and Java.',
     },
     {
-      title: "Deployment & Tools",
-      text: "Using GitHub, Docker, VS Code, and modern development tools to build and deploy projects."
-    }
+      title: 'Deployment & Tools',
+      text: 'Using GitHub, Docker, VS Code, and modern development tools to build and deploy projects.',
+    },
   ];
 
   return (
@@ -45,7 +45,7 @@ function Home() {
           <div className="hero-buttons">
             <a
               className="primary-button"
-              href= "https://github.com/harman1225"
+              href="https://github.com/harman1225"
               target="_blank"
               rel="noreferrer"
             >
@@ -108,7 +108,8 @@ function Home() {
           <p>
             I build web applications that combine clean front-end design with
             strong back-end functionality. I enjoy working on projects involving
-            routing, forms, validation, CRUD features, databases, and deployment.
+            routing, forms, validation, CRUD features, databases, and
+            deployment.
           </p>
         </div>
 

@@ -1,70 +1,193 @@
-# Getting Started with Create React App
+# KAUR HARMAN PORTFOLIO
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Assignment 14 – Component Library Portfolio
 
-## Available Scripts
+This project is a **React Portfolio Website** built using a component-based structure.
+It highlights the coursework completed during the Full Stack Web Development program.
 
-In the project directory, you can run:
+The application is fully **dockerized** and runs on:
 
-### `npm start`
+ http://localhost:5575
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+The portfolio includes the following sections:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 1. Basic Information
 
-### `npm run build`
+* Introduction about the developer
+* Program details
+* Career goals
+* GitHub and LinkedIn links
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 2. Work
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Projects included:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* Rails E-Commerce Store
+* UI Garden
+* StyleHub Store
+* Rails CRM Project
+* Form Validation Assignment
+* TeamShotOnGoalPercentages
 
-### `npm run eject`
+Each project contains:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+* Title
+* Description
+* Image
+* GitHub Link
+* Technologies Used
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 3. Skills
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+* HTML
+* CSS
+* JavaScript
+* React
+* Ruby on Rails
+* Java
+* Git & GitHub
+* Docker
+* Storybook
+* ESLint
+* Prettier
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 4. Resources
 
-## Learn More
+* React Documentation
+* MDN Web Docs
+* Docker Documentation
+* GitHub Docs
+* freeCodeCamp
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 5. Developer Setup
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+* VS Code extensions
+* Terminal: PowerShell
+* Preferred font: Fira Code
+* Helpful developer resources
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Technologies Used
 
-### Analyzing the Bundle Size
+* React (Create React App)
+* JavaScript
+* HTML / CSS
+* Docker
+* Git & GitHub
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## How to Run the Project
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Step 1: Clone the Repository
 
-### Advanced Configuration
+```bash
+git clone https://github.com/harman1225/KAUR_HARMAN_PORTFOLIO.git
+cd KAUR_HARMAN_PORTFOLIO
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+### Step 2: Build Docker Image
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+```bash
+docker build -t kaur_harman_coding_assignment14 .
+```
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Step 3: Run Docker Container
+
+```bash
+docker run -d --name kaur_harman_coding_assignment14 -p 5575:5575 kaur_harman_coding_assignment14
+```
+
+---
+
+### Step 4: Open in Browser
+
+```bash
+http://localhost:5575
+```
+
+---
+
+## Docker Requirements (Assignment)
+
+* Container name:
+
+```
+kaur_harman_coding_assignment14
+```
+
+* Working directory:
+
+```
+kaur_harman_final_site
+```
+
+* Runs production build of React app
+
+---
+
+## Git Commands Used
+
+```bash
+git init
+git remote add origin https://github.com/harman1225/KAUR_HARMAN_PORTFOLIO.git
+git add .
+git commit -m "Initial portfolio setup"
+git push -u origin main
+```
+
+For updates:
+
+```bash
+git add .
+git commit -m "Update portfolio"
+git push
+```
+
+---
+
+## CI/CD Concept (Simple Explanation)
+
+Continuous Integration and Continuous Delivery (CI/CD) helps automate the process of:
+
+* Building the application
+* Testing the application
+* Deploying the application
+
+In this project:
+
+* Code is pushed to GitHub
+* Docker is used to build and run the application
+* This simulates a simple deployment pipeline
+
+---
+
+## Author
+
+**Harmanpreet Kaur**
+
+GitHub:
+https://github.com/harman1225
+
+LinkedIn:
+https://www.linkedin.com/in/harmanpreet-kaur-9900b2389/
+
+---
+
+## Final Notes
+
+* This project demonstrates full stack development knowledge
+* Uses component-based architecture
+* Shows real coursework projects
+* Successfully deployed using Docker
+
+---

@@ -1,52 +1,50 @@
-import React from "react";
+import React from 'react';
 
 function Work() {
   const projects = [
     {
-      title: "Rails E-Commerce Store",
+      title: 'Rails E-Commerce Store',
       summary:
-        "A full-stack clothing store web application built using Ruby on Rails.",
+        'A full-stack clothing store web application built using Ruby on Rails.',
       features:
-        "Product listings, categories, shopping cart, checkout, and admin dashboard.",
-      link: "https://github.com/harman1225/Rails-Project",
-      tech: ["Ruby on Rails", "HTML", "CSS", "Bootstrap", "SQLite"]
+        'Product listings, categories, shopping cart, checkout, and admin dashboard.',
+      link: 'https://github.com/harman1225/Rails-Project',
+      tech: ['Ruby on Rails', 'HTML', 'CSS', 'Bootstrap', 'SQLite'],
     },
     {
-      title: "UI Garden Project",
+      title: 'UI Garden Project',
       summary:
-        "A front-end project focused on reusable UI components and responsive design.",
+        'A front-end project focused on reusable UI components and responsive design.',
       features:
-        "Reusable components, layout design, styling, and responsiveness.",
-      link: "https://github.com/harman1225/ui-garden",
-      tech: ["HTML", "CSS", "JavaScript"]
+        'Reusable components, layout design, styling, and responsiveness.',
+      link: 'https://github.com/harman1225/ui-garden',
+      tech: ['HTML', 'CSS', 'JavaScript'],
     },
     {
-      title: "StyleHub Store",
+      title: 'StyleHub Store',
       summary:
-        "A modern e-commerce web application showcasing clothing products and user-friendly UI.",
-      features:
-        "Product display, navigation, styling, and responsive layout.",
-      link: "https://github.com/harman1225/STYLEHUB_STORE",
-      tech: ["React", "CSS", "JavaScript", "Docker"]
+        'A modern e-commerce web application showcasing clothing products and user-friendly UI.',
+      features: 'Product display, navigation, styling, and responsive layout.',
+      link: 'https://github.com/harman1225/STYLEHUB_STORE',
+      tech: ['React', 'CSS', 'JavaScript', 'Docker'],
     },
     {
-      title: "UI Garden (Assignment Version)",
+      title: 'UI Garden (Assignment Version)',
       summary:
-        "A structured UI project created as part of coursework focusing on layout and component design.",
-      features:
-        "Clean layout, reusable components, and responsive design.",
-      link: "https://github.com/harman1225/kaur_harman_ui_garden",
-      tech: ["HTML", "CSS", "JavaScript"]
+        'A structured UI project created as part of coursework focusing on layout and component design.',
+      features: 'Clean layout, reusable components, and responsive design.',
+      link: 'https://github.com/harman1225/kaur_harman_ui_garden',
+      tech: ['HTML', 'CSS', 'JavaScript'],
     },
     {
-      title: "Rails CRM Project",
+      title: 'Rails CRM Project',
       summary:
-        "A CRM web application built with Ruby on Rails to manage customer data and interactions.",
+        'A CRM web application built with Ruby on Rails to manage customer data and interactions.',
       features:
-        "Customer management, CRUD operations, and database integration.",
-      link: "https://github.com/harman1225/Rails-CRM-Project",
-      tech: ["Ruby on Rails", "HTML", "CSS", "SQLite"]
-    }
+        'Customer management, CRUD operations, and database integration.',
+      link: 'https://github.com/harman1225/Rails-CRM-Project',
+      tech: ['Ruby on Rails', 'HTML', 'CSS', 'SQLite'],
+    },
   ];
 
   return (
